@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Satisfy&display=swap');
+
+
+.home-container {
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+    min-height: 100vh;
+    /* padding: 30px; */
+
+    flex-direction: column;
+    width: 100vw;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info-cliente{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.name-user {
+    color: white;
+    font-weight: 600;
+}
+
+.photo-user {
+    border-radius: 50px;
+    width: 3vw;
+}
+
+.header {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+    ),
+    url('../assets/bg.jpg');
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    padding: 50px 0px 0px 0px;
+    width: 100%;
+
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: #C9A538;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    text-align: center;
+}
+
+.header-txt h1 {
+    font-size: 75px;
+    font-family: 'Satisfy', cursive;
+    color: #FFFFFF;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.header-txt p {
+    font-size: 35;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.button-contenedor {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 10px;;
+}
+
+.logOut{
+    padding: 0 10px;
+    border-radius: 50px;
+    background-color: rgba(169, 22, 22, 0.4);
+    color: white;
+}

@@ -1,0 +1,18 @@
+.recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .recipe-card {
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 200px;
+  }
+  
+  .recipe-image {
+    width: 100%;
+    height: auto;
+  }
+  
